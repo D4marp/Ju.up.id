@@ -1,5 +1,7 @@
 # NextJs Web Katalog 
 
+![screenshot nextjs-web-katalog](public/screenshot.jpg)
+
 Ini adalah project pertama saya menggunakan **Next.js** dan **TypeScript**, yaitu sebuah web katalog dengan produk kue kering. Web ini dirancang untuk menampilkan daftar produk kue kering dengan fitur pre-order melalui tombol WhatsApp.  
 
 ## Konsep  
@@ -40,3 +42,4 @@ Data produk disimpan di file JSON pada folder `src/data`. Pendekatan ini dipilih
 5. Tombol WhatsApp untuk pre-order.  
 6. Tombol berbagi media sosial.  
 7. Dynamic OpenGraph image dan metadata unik untuk setiap halaman detail produk, yang membantu optimasi saat halaman dibagikan di media sosial.
+
