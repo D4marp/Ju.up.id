@@ -120,7 +120,8 @@ export default async function Page({
                                     <p className="text-sm md:text-base text-gray-500">Informasi nutrisi belum tersedia</p>
                                 )}
                         </div>
-                            <ButtonWA pesan={`Hai the cookies, aku mau pesan ${product.judul.replace(" ", "%20")} `} />
+                            // Ganti "the cookies" dengan nama brand yang sesuai
+                            <ButtonWA pesan={`Hai Ju.Up, aku mau pesan ${product.judul.replace(" ", "%20")} `} />
                           
                     </div>
                 </div>

@@ -7,7 +7,8 @@ export default async function Image() {
     const headersList = headers()
     const host = (await headersList).get('host')
     const protocol = host?.startsWith('localhost') ? 'http' : 'https'
-    const absoluteUrl = `${protocol}://${host}/images/all-varian.jpg`
+    const absoluteUrl = `${protocol}://${host}/images/high.png`
+
     const imgSrc = await fetch(absoluteUrl).then(
         (res) => res.arrayBuffer()
     )
