@@ -1,7 +1,7 @@
 'use client'
 import { Product } from "@core/types/product"
 // Ubah import berikut
-import products from "../../data/products.json"
+import products from "../../data/products.js"
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"

@@ -1,6 +1,6 @@
 import Carousel from "./carousel"
 // Ubah import berikut
-import products from "../data/products.json"
+import products from "../data/products.js"
 
 
 const productPopuler = products.filter(item => item.statusPopuler === true)

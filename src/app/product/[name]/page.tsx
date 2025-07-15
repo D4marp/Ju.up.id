@@ -1,13 +1,12 @@
-// Ubah import berikut
-import products from "../../../data/products.json"
+// Remove this line:
+// import ShareButtons from '../../../components/shareButtons';
+import products from "../../../data/products.js"
 import Navbar from "@core/components/navbar"
 import Footer from "@core/components/footer"
 import GalleryProductDetail from "@core/components/galleryProductDetail"
 import KemasanCard from "@core/components/kemasanCard"
-import ShareButtons from "@core/components/shareButtons"
 import ButtonWA from "@core/components/elements/buttonWa"
 import RelatedProduct from "@core/components/relatedProduct"
-
 
 import { Metadata } from "next"
 

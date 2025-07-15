@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: "Who's Behind the Bottle?",
-    description: "Who's Behind the Bottle? Lebih dari sekedar jus. Ju.Up bukan sekadar cold-pressed juice. Ini adalah gerakan hidup sehat yang lahir dari kepedulian seorang dokter pada kesehatan masyarakat. Didirikan oleh dr. Azkia Fachrina Hanifa, Ju.Up memadukan buah, sayur, dan bunga alami menjadi minuman yang sehat, enak, dan elegan. Tanpa tambahan gula, pewarna, atau pengawet—Ju.Up mendukung perempuan aktif menjalani gaya hidup holistik melalui produk dan program kesehatan yang menyatu dengan keseharian."
+    title: "Who&apos;s Behind the Bottle?",
+    description: "Who&apos;s Behind the Bottle? Lebih dari sekedar jus. Ju.Up bukan sekadar cold-pressed juice. Ini adalah gerakan hidup sehat yang lahir dari kepedulian seorang dokter pada kesehatan masyarakat. Didirikan oleh dr. Azkia Fachrina Hanifa, Ju.Up memadukan buah, sayur, dan bunga alami menjadi minuman yang sehat, enak, dan elegan. Tanpa tambahan gula, pewarna, atau pengawet—Ju.Up mendukung perempuan aktif menjalani gaya hidup holistik melalui produk dan program kesehatan yang menyatu dengan keseharian."
 }
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className="px-5 md:px-8 order-2 lg:order-1">
                         <h2 className="font-bold text-5xl flex flex-col md:flex-row md:gap-3">
-                            <span>Who's Behind </span>
+                            <span>Who&apos;s Behind </span>
                             <span>the Bottle?</span>
                         </h2>
                         <div className="flex flex-col gap-4 pt-10">
@@ -44,7 +44,7 @@ export default function AboutPage() {
                         <Image
                             aria-hidden
                             src="/images/HOME/Highlight.png"
-                            alt="Who's Behind the Bottle?"
+                            alt="Who&apos;s Behind the Bottle?"
                             width={1400}
                             height={788}
                             className="object-cover w-full md:aspect-video aspect-square shadow-[10px_10px_0_rgb(170,179,150)]"

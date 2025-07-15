@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
-// Ubah import berikut
-import products from "../data/products.json"
+import products from "../data/products.js"
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
 
-export default  function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap(): MetadataRoute.Sitemap {
     const staticSitemap: MetadataRoute.Sitemap = [
         {
             url: `${BASE_URL}`,
@@ -32,7 +31,7 @@ export default  function sitemap(): MetadataRoute.Sitemap {
         },
     ]
 
-    const dynamicSitemap =  generateDynamicSitemaps()
+    const dynamicSitemap = generateDynamicSitemaps()
     return [...staticSitemap, ...dynamicSitemap]
 }
 
@@ -49,5 +48,4 @@ function generateDynamicSitemaps(): MetadataRoute.Sitemap {
         })
     }
     return sitemap
-
 }

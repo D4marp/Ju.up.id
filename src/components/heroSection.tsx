@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const HeroSection = () => {
     return (
         <div className="h-screen w-full relative overflow-hidden">

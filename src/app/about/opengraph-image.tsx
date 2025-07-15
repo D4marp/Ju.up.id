@@ -22,7 +22,7 @@ export default async function Image() {
                 }}
             >
                 
-            <img src={`data:image/jpeg;base64,${Buffer.from(imgSrc).toString('base64')}`}  />    
+            <img src={`data:image/jpeg;base64,${Buffer.from(imgSrc).toString('base64')}`} alt="About Ju.Up" />    
 
             </div>
         )

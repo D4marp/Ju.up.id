@@ -5,7 +5,7 @@ import Navbar from "@core/components/navbar"
 import { ProductCard } from "@core/components/productCard"
 import KemasanSection from "@core/components/kemasanSection";
 // Ubah import berikut
-import products from "../../data/products.json"
+import products from "../../data/products.js"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
