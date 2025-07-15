@@ -1,5 +1,6 @@
 import Carousel from "./carousel"
-import products  from "@core/data/products.json"
+// Ubah import berikut
+import products from "../data/products.json"
 
 
 const productPopuler = products.filter(item => item.statusPopuler === true)

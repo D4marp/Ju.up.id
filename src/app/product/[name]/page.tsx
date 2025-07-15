@@ -1,4 +1,5 @@
-import products  from "@core/data/products.json"
+// Ubah import berikut
+import products from "../../../data/products.json"
 import Navbar from "@core/components/navbar"
 import Footer from "@core/components/footer"
 import GalleryProductDetail from "@core/components/galleryProductDetail"

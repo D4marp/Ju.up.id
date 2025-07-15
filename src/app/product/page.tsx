@@ -4,7 +4,8 @@ import Footer from "@core/components/footer"
 import Navbar from "@core/components/navbar"
 import { ProductCard } from "@core/components/productCard"
 import KemasanSection from "@core/components/kemasanSection";
-import products  from "@core/data/products.json"
+// Ubah import berikut
+import products from "../../data/products.json"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {

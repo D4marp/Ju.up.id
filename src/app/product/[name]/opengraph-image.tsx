@@ -1,6 +1,7 @@
 import { ImageResponse} from 'next/og'
 import { headers } from 'next/headers'
-import products  from "@core/data/products.json"
+// Ubah import berikut
+import products from "../../../data/products.json"
 
 export const runtime = 'edge'
 
