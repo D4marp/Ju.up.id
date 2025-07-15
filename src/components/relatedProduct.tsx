@@ -6,8 +6,7 @@ import Link from "next/link"
 
 interface ProductRelated {
     judul: string,
-    gambar: string,
-    minHarga: number
+    gambar: string
 }
 interface RelatedProps {
     products: ProductRelated[],  
@@ -47,7 +46,6 @@ const RelatedProduct: React.FC<RelatedProps> = ({ products }) => {
                             </Link>
                         <div>
                             <h2 className="text-sm md:text-lg">{product.judul} </h2>
-                            <p className="md:text-lg font-bold">{`mulai dari ${product.minHarga.toLocaleString()}`} </p>
                         </div>
                         </div>
                     </SwiperSlide>

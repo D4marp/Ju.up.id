@@ -9,19 +9,19 @@ const Navbar = () => {
                    <Link href={"/"}>
                    <Image
                         aria-hidden
-                        src="/logo-v1.png"
-                        alt="the cookies"
-                        width={100}
-                        height={25}
+                        src="/ju.up.png"
+                        alt="ju.up"
+                        width={70}
+                        height={15}
                     />
                    </Link> 
                 </div>
                 <nav >
                     <ul className="pl-0 flex flex-wrap justify-center">
-                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1  hover:text-[#674636]"><Link href="/">Home</Link> </li>
-                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1  hover:text-[#674636]"><Link href="/about">About</Link></li>
-                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1  hover:text-[#674636]"><Link href="/product">Product</Link></li>
-                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1  hover:text-[#674636]"><Link href="/contact">Contact</Link></li>
+                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1 hover:text-juup-orange"><Link href="/">Home</Link> </li>
+                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1 hover:text-juup-orange"><Link href="/about">About</Link></li>
+                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1 hover:text-juup-orange"><Link href="/product">Product</Link></li>
+                        <li className="transition ease-in-out duration-300 px-3 md:px-4 hover:-translate-y-1 hover:text-juup-orange"><Link href="/contact">Contact</Link></li>
                     </ul>
                 </nav>
             </div>

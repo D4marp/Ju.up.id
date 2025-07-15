@@ -16,11 +16,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | the cookies',
-    default: 'the cookies'
+    template: '%s | Ju.Up',
+    default: 'Ju.Up - #PressTheGoodness'
   },
-  description: "kue kering the cookies, dibuat secara homemade, dengan bahan pilihan dan cinta, yang membuat rasa hangat disetiap gigitan",
-
+  description: "Ini bukan sekedar Jus - Ini Gaya Hidup. Bergabunglah dengan program sehat kami dan temukan berbagai produk jus berkualitas untuk gaya hidup sehat Anda.",
 };
 
 export default function RootLayout({
@@ -31,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+        suppressHydrationWarning={true}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}

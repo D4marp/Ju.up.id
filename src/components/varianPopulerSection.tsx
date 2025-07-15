@@ -10,7 +10,7 @@ return (
             <div className="flex flex-col gap-6">
                 <h2 className="font-bold text-3xl text-center flex flex-col">
                     <span>Varian populer</span>
-                    <span>the cookies</span>
+                    <span>Ju.Up</span>
                 </h2>
             </div>
         </div>

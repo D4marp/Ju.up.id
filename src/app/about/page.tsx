@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: "Tentang the cookies",
-    description: "kue kering kami juga hadir dalam bentuk-bentuk unik, seperti nastar kerang, kastengel berbentuk daun, hingga kue martabak cookies."
+    title: "Who's Behind the Bottle?",
+    description: "Who's Behind the Bottle? Lebih dari sekedar jus. Ju.Up bukan sekadar cold-pressed juice. Ini adalah gerakan hidup sehat yang lahir dari kepedulian seorang dokter pada kesehatan masyarakat. Didirikan oleh dr. Azkia Fachrina Hanifa, Ju.Up memadukan buah, sayur, dan bunga alami menjadi minuman yang sehat, enak, dan elegan. Tanpa tambahan gula, pewarna, atau pengawet—Ju.Up mendukung perempuan aktif menjalani gaya hidup holistik melalui produk dan program kesehatan yang menyatu dengan keseharian."
 }
 
 export default function AboutPage() {
@@ -18,32 +18,45 @@ export default function AboutPage() {
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className="px-5 md:px-8 order-2 lg:order-1">
                         <h2 className="font-bold text-5xl flex flex-col md:flex-row md:gap-3">
-                            <span>Tentang </span>
-                            <span>the cookies</span>
+                            <span>Who's Behind </span>
+                            <span>the Bottle?</span>
                         </h2>
                         <div className="flex flex-col gap-4 pt-10">
                             <p>
-                            Selamat datang di The Cookies! Kami adalah usaha rumahan dari kota Salatiga, Jawa Tengah, yang mengkhususkan diri dalam pembuatan kue kering lezat dan penuh kreasi. Dengan tagline <strong><i>Delicious Freshly Baked</i></strong>, kami selalu mengutamakan kualitas rasa dan menghadirkan sentuhan inovasi di setiap kue yang kami buat.
+                            Lebih dari sekedar jus. Ju.Up bukan sekadar cold-pressed juice. Ini adalah gerakan hidup sehat yang lahir dari kepedulian seorang dokter pada kesehatan masyarakat.
                             </p>
                             <p>
-                            Semua kue kami dibuat berdasarkan pemesanan alias pre-order, jadi setiap gigitan dijamin baru saja keluar dari oven! Selain rasanya yang menggoda, kue-kue kami juga hadir dalam bentuk-bentuk unik, seperti nastar kerang, kastengel berbentuk daun, hingga kue martabak cookies. Beberapa pilihan lainnya yang bisa kamu pesan adalah semprit keju, semprit coklat, kue kacang, garlic cheese cookies, dan masih banyak lagi. Cocok untuk teman minum teh, camilan santai, atau hadiah spesial.
+                            Didirikan oleh dr. Azkia Fachrina Hanifa, Ju.Up memadukan buah, sayur, dan bunga alami menjadi minuman yang sehat, enak, dan elegan.
                             </p>
                             <p>
-                            Yuk, pesan sekarang dan nikmati kue buatan rumahan dengan cita rasa dan kreasi yang beda dari yang lain!
+                            Tanpa tambahan gula, pewarna, atau pengawet—Ju.Up mendukung perempuan aktif menjalani gaya hidup holistik melalui produk dan program kesehatan yang menyatu dengan keseharian.
                             </p>
+                              <p >
+                            Kesehatan ga cukup hanya dari apa yang kamu minum—Ju.Up hadir untuk mendampingi
+                            perjalanan sehatmu. Yuk, ikut program diet, webinar, dan komunitas yang bikin gaya hidup
+                            sehat makin seru!
+                        </p>
+                        
                         </div>
                     </div>
+                    
                     <div className="order-1 lg:order-2 mr-3">
                         <Image
                             aria-hidden
-                            src="/images/all-varian.jpg"
-                            alt="tentang the cookies"
+                            src="/images/HOME/Highlight.png"
+                            alt="Who's Behind the Bottle?"
                             width={1400}
                             height={788}
                             className="object-cover w-full md:aspect-video aspect-square shadow-[10px_10px_0_rgb(170,179,150)]"
                         />
                     </div>
                 </div>
+<a 
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdSG0PYWJ3KiCWo7ZZ0p9ymBaOe78wNXONSi5QlP7rBBjnUog/viewform"
+    className="inline-block bg-[#AAB396] text-white px-4 py-2 rounded-full hover:bg-opacity-90 transition-all ml-5 md:ml-8"
+>
+    Gabung Program Sehat
+</a>
             </main>
             <Footer />
         </div>

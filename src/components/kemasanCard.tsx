@@ -3,11 +3,10 @@ import Image from "next/image"
 
 interface KemasanProps {
     gambar: string,
-    volume: string,
-    harga: number
+    volume: string
 }
 
-const KemasanCard: React.FC<KemasanProps> = ({ gambar, volume, harga }) => {
+const KemasanCard: React.FC<KemasanProps> = ({ gambar, volume }) => {
 
     return (        
         <div>
@@ -24,7 +23,6 @@ const KemasanCard: React.FC<KemasanProps> = ({ gambar, volume, harga }) => {
                 </div>
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center py-2">
                     <p className="text-sm">{volume} </p>
-                    <p className=" md:text-lg font-bold">{harga.toLocaleString()} </p>
                 </div>
             </div> 
         </div>

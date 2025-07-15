@@ -2,19 +2,24 @@ import Image from "next/image";
 
 const HeroSection = () => {
     return (
-        <div className="h-full w-full relative">
-          <Image
-              aria-hidden
-              src="/images/the-peanuts-hero.jpg"
-              alt="kue kastengel"
-              width={1400}
-              height={788}
-              className="object-cover h-full w-full"
-          />
+        <div className="h-screen w-full relative overflow-hidden">
+          <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              suppressHydrationWarning={true}
+              className="absolute top-0 left-0 w-full h-full object-cover"
+          >
+              <source src="/images/HOME/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+          </video>
           <div>
-            <div className="absolute inset-0 bg-black bg-opacity-10 z-10"></div>
-            <div className="absolute bottom-14 left-0 px-5 md:px-8 md:py-8 z-20">
-              <p className="text-sm md:text-lg  text-white max-w-[250px] md:max-w-[450px] ">kue kering the cookies, dibuat secara homemade, dengan bahan pilihan dan cinta, yang membuat rasa hangat disetiap gigitan</p>
+            <div className="absolute inset-0 bg-black bg-opacity-20 z-10"></div>
+            <div className="absolute bottom-10 left-0 px-5 md:px-12 md:py-10 z-20">
+              <p className="text-2xl md:text-1xl text-white max-w-[500px] md:max-w-[800px] leading-tight font-bold tracking-wide">
+                Ini bukan sekedar Jus - Ini Gaya Hidup.
+              </p>
             </div>
           </div>
         </div>

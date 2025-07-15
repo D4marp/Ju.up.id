@@ -30,7 +30,7 @@ export const ProductCard:React.FC<ProductProps> = ({product}) => {
             </div>
             <div>
                 <h2 className="text-sm md:text-lg">{judul} </h2>
-                <p className="md:text-lg font-bold">{`mulai dari ${minPrice.toLocaleString()}`} </p>
+                <p className="md:text-lg font-bold">{minPrice.toLocaleString()} </p>
             </div>
         </div>
     )

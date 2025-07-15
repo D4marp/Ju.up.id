@@ -89,19 +89,39 @@ export default async function Page({
                                     key={i_pack}
                                     gambar={pack.gambar}
                                     volume={pack.volume}
-                                    harga={pack.harga} 
+                                
                                 />
                             ))}
                             </div>
                         </div>
-                        <div>
-                            <p className="text-sm md:text-base">Deskripsi:</p>
-                            {product.deskripsi.split("\n\n").map((p, ip) =>(
-                            <p key={ip} className="mb-2 text-sm md:text-base">{p} </p>
-                            ))}
+                        <div className="space-y-4">
+                            <div>
+                                <p className="text-sm md:text-base font-medium">Deskripsi:</p>
+                                {product.deskripsi.split("\n\n").map((p, ip) =>(
+                                    <p key={ip} className="mb-2 text-sm md:text-base">{p}</p>
+                                ))}
+                            </div>
+                            
+                            <div></div>
+                                <p className="text-sm md:text-base font-medium">Manfaat:</p>
+                                {product.manfaat ? (
+                                    product.manfaat.split("\n\n").map((p, ip) =>(
+                                        <p key={ip} className="mb-2 text-sm md:text-base">{p}</p>
+                                    ))
+                                ) : (
+                                    <p className="text-sm md:text-base text-gray-500">Manfaat belum tersedia</p>
+                                )}
+                            </div>
+                            <div>
+                                <p className="text-sm md:text-base font-medium">Informasi Nutrisi:</p>
+                                {product.kalori ? (
+                                    <p className="text-sm md:text-base">Kalori: {product.kalori} kkal</p>
+                                ) : (
+                                    <p className="text-sm md:text-base text-gray-500">Informasi nutrisi belum tersedia</p>
+                                )}
                         </div>
                             <ButtonWA pesan={`Hai the cookies, aku mau pesan ${product.judul.replace(" ", "%20")} `} />
-                            <ShareButtons />
+                          
                     </div>
                 </div>
                     <div className="w-full max-w-6xl mx-auto px-3 mb-16">

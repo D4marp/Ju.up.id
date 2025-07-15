@@ -44,7 +44,7 @@ const SearchBar: React.FC = () => {
                 value={query}
                 onChange={handleSearch}
                 placeholder="cari produk..."
-                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring focus:ring-[#f7eed3]"
+                className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring focus:ring-juup-orange/30 focus:border-juup-orange"
             />
 
             { isClient && query &&  (

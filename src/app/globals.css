@@ -26,10 +26,15 @@
   }
 }
 
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --juup-orange: #FF6B35;
+  --juup-yellow: #F7931E;
+  --juup-green: #8BC34A;
+  --juup-purple: #9C27B0;
+  --juup-dark-green: #2E7D32;
+  --juup-cream: #F5F5DC;
 }
 
 @media (prefers-color-scheme: dark) {

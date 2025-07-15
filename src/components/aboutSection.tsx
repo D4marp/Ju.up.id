@@ -5,8 +5,8 @@ const AboutSection = () => {
         <div className="section-container max-w-3xl mx-auto">
             <section className="flex flex-col gap-4 pt-10 pb-3">
                 <div className="flex flex-col gap-5">
-                    <h2 className="font-bold text-5xl max-w-[600px]"> Kue kering the cookies menemani setiap momen anda</h2>
-                    <p> the cookies melayani pre-order aneka kue kering terbaik, seperti nastar, kastengel, semprit cookies, sagu keju, dan masih banyak lagi. setiap gigitan membawa kenangan manis dan kehangatan! pesan sekarang dan rasakan kelezatannya</p>
+                    <h2 className="font-bold text-5xl max-w-[600px]">Lebih dari sekedar jus. Ju.Up bukan sekadar cold-pressed juice.</h2>
+                    <p>Ini adalah gerakan hidup sehat yang lahir dari kepedulian seorang dokter pada kesehatan masyarakat. Didirikan oleh dr. Azkia Fachrina Hanifa, Ju.Up memadukan buah, sayur, dan bunga alami menjadi minuman yang sehat, enak, dan elegan. Tanpa tambahan gula, pewarna, atau pengawet—Ju.Up mendukung perempuan aktif menjalani gaya hidup holistik melalui produk dan program kesehatan yang menyatu dengan keseharian.</p>
                 </div>
                 <div className="flex justify-start items-center">
                     <ButtonOrder />

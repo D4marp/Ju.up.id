@@ -14,7 +14,7 @@ import 'swiper/css/pagination'
 
   const Carousel: React.FC<CarouselProps> = ({products}) => {
   return (
-    <div className="relative w-full max-w-5xl mx-auto overflow-hidden">
+    <div className="relative w-full max-w-5xl mx-auto overflow-hidden" suppressHydrationWarning={true}>
       <Swiper
       modules={[Pagination, Autoplay]}
         slidesPerView={1.2}
